@@ -50,7 +50,7 @@ exit();
 }
 }
 else{
-$errmsg_arr[] = 'You dont have access to add user pls. contact the administrator';
+$errmsg_arr[] = 'You dont have access to add user please. contact the administrator';
 $errflag = true;
 if($errflag) {
 $_SESSION['ERRMSG_ARR'] = $errmsg_arr;
